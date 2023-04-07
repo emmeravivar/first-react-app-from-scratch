@@ -12,7 +12,7 @@ The release use is 16.13.0
 
 ## :file_folder: **react-using-npm**
 
-In this folder you will find the React Library and ReactDOM Library add with `npm` Node Package Manager.
+In this folder you will find the React Library and ReactDOM Library add with `npm` Node Package Manager. This project use Babel and Webpack.
 
 ### Run the project
 
