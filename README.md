@@ -14,13 +14,6 @@ The release use is 16.13.0
 
 In this folder you will find the React Library and ReactDOM Library add with `npm` Node Package Manager.
 
-Instructions:
-
-1. Create an HTML file
-
-2. react using npm
-   In this folder you will find the React Library and ReactDOM Library added with the "npm" Node Package Manager.
-
 ### Run the project
 
 For run the React-Using-npm correctly you need:
