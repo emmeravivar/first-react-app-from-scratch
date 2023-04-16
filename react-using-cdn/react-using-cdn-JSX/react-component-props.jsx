@@ -4,13 +4,12 @@
 
 const root = document.getElementById('app'); // => apuntamos al contenedor HTML
 
+const cars = {
+        make: 'Ford',
+        model: 'Kuga'
+    };
 
-
-
-
-const Hello = props =>{
-  
-    const marca = props.marca
+const Hello = () =>{
     
     return (
         <div>

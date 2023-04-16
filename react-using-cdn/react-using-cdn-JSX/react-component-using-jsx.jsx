@@ -4,13 +4,29 @@
 
 const root = document.getElementById('app'); // => apuntamos al contenedor HTML
 
-const Hello = ()=>{
-    const name = 'Eva'
+const carOne = {
+    make: 'Ford',
+    model: 'Kuga',
+    year: '2005'
+};
+
+
+const carType = <h1>Tipo de coche {carOne.make} </h1>
+
+
+const Hello = () => {
+    const {make, year} = carOne
+    
     return (
         <div>
-            <h1>
-                My Component {name} With JSX
-            </h1>
+            {carType}
+            <h2>
+                y el modelo es {carOne.model}
+
+            </h2>
+            <h2>
+                y usando destructuring marca { make } y el año {year}
+            </h2>
         </div>
     )
 }

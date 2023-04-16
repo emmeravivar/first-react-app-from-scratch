@@ -26,7 +26,7 @@ const SeveralElements = React.createElement('div', {
     key: 1,
     children: [
         React.createElement('h1', {
-            children: 'Wellcome!',
+            children: 'Welcome!',
             key: 2,
         }),
 
@@ -49,3 +49,5 @@ const SeveralElements = React.createElement('div', {
 
 
 ReactDOM.render(SeveralElements, root);
+
+console.log(React)
