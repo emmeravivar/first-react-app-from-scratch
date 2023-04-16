@@ -18,47 +18,49 @@
   <body>
     <div id="app"></div>
 
+    <!-- <script src="es6.js"></script> -->
+    <script src="react-create-element.js"></script>
     <script>
-      const root = document.getElementById('app');
-      // const mainHeading = document.createElement('h1');
-      // mainHeading.textContent = 'Hello there!';
-      // app.appendChild(mainHeading);
 
+  
+      /* React: Create Element */
+
+      // const firstName = 'Mi apellido'
       //la propiedad Children es plural que se puede pasar varios argumentos
       // const element = React.createElement('h1', {
-      //   children: 'hellow',
+      //   children: firstName,
       // });
 
-      const elementTow = React.createElement('div', {
-        className: 'container',
-        key: 1,
-        children: [
-          React.createElement('h1', {
-            children: 'hellow',
-            key: 2,
-          }),
-          React.createElement('h2', {
-            children: 'What time',
-            key: 3,
-          }),
-          React.createElement('h3', {
-            children: [
-              'The time is: ',
-              `${new Date().getHours()}:
-              ${new Date().getMinutes()}:
-              ${new Date().getSeconds()}`,
-            ],
-            key: 4,
-          }),
-        ],
-      });
+      // const elementTow = React.createElement('div', {
+      //   className: 'container',
+      //   key: 1,
+      //   children: [
+      //     React.createElement('h1', {
+      //       children: 'hellow',
+      //       key: 2,
+      //     }),
+      //     React.createElement('h2', {
+      //       children: 'What time',
+      //       key: 3,
+      //     }),
+      //     React.createElement('h3', {
+      //       children: [
+      //         'The time is: ',
+      //         `${new Date().getHours()}:
+      //         ${new Date().getMinutes()}:
+      //         ${new Date().getSeconds()}`,
+      //       ],
+      //       key: 4,
+      //     }),
+      //   ],
+      // });
 
       // ReactDOM.render(element, root);
-      ReactDOM.render(elementTow, root);
-      console.log(elementTow);
-      console.log(React);
+      // ReactDOM.render(elementTow, root);
+      // console.log(elementTow);
+      // console.log(React);
 
-      console.log(root);
+      // console.log(root);
     </script>
   </body>
 </html>
